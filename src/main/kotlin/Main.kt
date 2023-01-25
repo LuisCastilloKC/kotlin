@@ -11,5 +11,7 @@ fun main(args: Array<String>) {
 
     println("Name is ${kevin.Name}")
 
+    kevin.display()
+
     //kevin = Person()
 }
