@@ -14,4 +14,10 @@ fun main(args: Array<String>) {
     kevin.display()
 
     //kevin = Person()
+
+    kevin.displayWithLambda(::printName)
+}
+
+fun printName(name: String){
+    println(name)
 }
